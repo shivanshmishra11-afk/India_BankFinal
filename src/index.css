@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0F172A;
+  --accent: #2563EB;
+  --surface: #FFFFFF;
+  --border: #E2E8F0;
+  --background: #F8FAFC;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #FFFFFF;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.92;
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: #FFFFFF;
+  transition: all 0.2s;
+}
+
+.btn-accent:hover {
+  opacity: 0.92;
+}
